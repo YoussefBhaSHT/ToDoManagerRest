@@ -8,5 +8,6 @@ namespace ToDoManagerRest.Models
 {
     public class Task
     {
+
     }
 }
