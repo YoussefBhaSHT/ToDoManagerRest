@@ -8,6 +8,9 @@ namespace ToDoManagerRest.Models
 {
     public class Task
     {
+        public int Id { set; get; }
+        public string Title { set; get; }
+        public int Status { set; get; }
 
     }
 }

@@ -15,7 +15,7 @@ namespace ToDoManagerRest
         public LoginPage()
         {
             InitializeComponent();
-            User u;
+            
             
         }
     }
