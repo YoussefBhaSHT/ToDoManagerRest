@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToDoManagerRest.LoginPage">
+    <ContentPage.Content>
+        <StackLayout Padding="50" VerticalOptions="CenterAndExpand">
+            <Image Source="icon"></Image>
+            <Label Text="Manage your task" HorizontalOptions="Center" />
+            <Entry x:Name="email" Placeholder="Email" />
+            <Entry x:Name="password" Placeholder="Password" />
+            <Button Text="Register ? " BorderRadius="50"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
