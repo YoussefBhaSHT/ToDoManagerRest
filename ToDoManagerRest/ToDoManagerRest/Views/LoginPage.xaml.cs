@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ToDoManagerRest.Models;
+using ToDoManagerRest.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -16,6 +17,11 @@ namespace ToDoManagerRest
         {
             InitializeComponent();
             
+        }
+
+        private void ToRegisterPage(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new RegisterPage());
         }
     }
 }
