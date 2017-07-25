@@ -16,7 +16,6 @@ namespace ToDoManagerRest
         {
             InitializeComponent();
             
-            
         }
     }
 }

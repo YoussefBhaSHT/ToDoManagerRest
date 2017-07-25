@@ -9,6 +9,7 @@
             <Label Text="Manage your task" HorizontalOptions="Center" />
             <Entry x:Name="email" Placeholder="Email" />
             <Entry x:Name="password" Placeholder="Password" />
+            <Button Text="Login " BorderRadius="50"></Button>
             <Button Text="Register ? " BorderRadius="50"></Button>
         </StackLayout>
     </ContentPage.Content>
